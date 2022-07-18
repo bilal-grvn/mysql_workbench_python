@@ -98,7 +98,7 @@ sudo systemctl start mysql
 ``` 
 
 # -----------------------------------------------------------------------------
-# 🚀 MYSQL WORKBENCH KURULUMU
+# 🚀 MYSQL WORKBENCH KURULUMU VE KULLANIMI
 
 `Ubuntu software` yardımı ile `mysql workbench` kurulumunu gerçekleştirebiliriz
 
@@ -109,10 +109,11 @@ sudo systemctl start mysql
 
 Ayrıca [linkten](https://dev.to/gsudarshan/how-to-install-mysql-and-workbench-on-ubuntu-20-04-localhost-5828) yararlanılarak da kurulum yapılabilir
 
+Yukarıda belirtildiği gibi oluşturduğumuz kullanıcı ve şifresini kullanarak `MySQL Workbench` de database için bir bağlantı oluşturalım
 
+<p align="center">
+  <img width="600" height="360" src="image/baglanti.gif?raw=true">
+</p>
 
 # -----------------------------------------------------------------------------
 # 🚀 TEMEL SEVİYEDE PYTHON DATABASE KODLARI
-
-
-EK olarak [nmcli](https://www.cyberithub.com/30-nmcli-command-examples-in-linux-rhel-centos-cheat-sheet/) kodlarını kullanarak da wifi ile ilgili bir çok işlem yapılabilir.
