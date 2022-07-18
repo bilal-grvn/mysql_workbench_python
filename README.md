@@ -103,7 +103,7 @@ sudo systemctl start mysql
 `Ubuntu software` yardımı ile `mysql workbench` kurulumunu gerçekleştirebiliriz
 
 <p align="center">
-  <img width="500" height="350" src="image/workbench_screen.png?raw=true">
+  <img width="700" height="400" src="image/workbench_screen.png?raw=true">
 </p>
 
 
@@ -112,7 +112,7 @@ Ayrıca [linkten](https://dev.to/gsudarshan/how-to-install-mysql-and-workbench-o
 Yukarıda belirtildiği gibi oluşturduğumuz kullanıcı ve şifresini kullanarak `MySQL Workbench` de database için bir bağlantı oluşturalım
 
 <p align="center">
-  <img width="600" height="360" src="image/baglanti.gif?raw=true">
+  <img width="700" height="400" src="image/baglanti.gif?raw=true">
 </p>
 
 # -----------------------------------------------------------------------------
