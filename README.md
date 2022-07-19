@@ -3,13 +3,14 @@
 </h1>
 
 
-## `Ubuntu 18.04`'te  temel seviyede database işlemlerini gerçekleştirmeye çalıştım. Bunun için `MySQL`, `MySQL Workbench`  kullandım. Ayrıca `Python` programlama dili ile de yine temel seviyede bazı database işlemlerini gerçekleştirdim. Umarım sizlere de katkısı olur.
+## `Ubuntu`'da  temel seviyede database işlemlerini gerçekleştirmeye çalıştım. Bunun için `MySQL`, `MySQL Workbench`  kullandım. Ayrıca `Python` programlama dili ile de yine temel seviyede bazı database işlemlerini gerçekleştirdim. Umarım sizlere de katkısı olur.
 
 # -----------------------------------------------------------------------------
 # 🚀 MYSQL KURULUMU
 
 [linkten](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-18-04) kaynak bilgiye ulaşabilirsiniz.
 
+aşağıdaki kodlar ile kuruluma başlayalım
 
 ```sh
 sudo apt update
@@ -24,9 +25,11 @@ kurulan mysql versiyonunu kontrol edebiliriz
 mysql --version
 ```
 
+eğer mysql çalışmıyorsa aşağıdaki kod ile onu aktif edebiliriz.
+ 
 ```sh
-sudo systemctl start mysql.service
-```   
+sudo systemctl start mysql
+```  
 
 güvenlik ayarlarını yapılandırmak için
 
@@ -40,14 +43,14 @@ Kullanıcılar hakkında genel bilgiyi görmek için
 SELECT user,authentication_string,plugin,host FROM mysql.user;
 ``` 
 
-Şifreyi bu şekilde de değiştirebiliriz
+Şifreyi bu şekilde de değiştirebiliriz. Önce terminalden mysql e giriş yapalım
 
 ```sh
 sudo mysql;
 ``` 
 
 ```sh
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Optimak.123';
 ``` 
 
 değişikliklerin aktif edilmesi için
@@ -70,7 +73,7 @@ sudo mysql -u root -p
 yeni bir kullanıcı oluşturacaksak
 
 ```sh
-CREATE USER 'bilal'@'localhost' IDENTIFIED BY 'password';
+CREATE USER 'bilal'@'localhost' IDENTIFIED BY 'Bilal.123';
 ``` 
 
 daha sonra oluşturduğumuz bu kullanıcıya ayrıcalıklar verebiliriz.
@@ -102,25 +105,6 @@ mysql durumunu sorgulamak için
 systemctl status mysql.service
 ``` 
 
-eğer mysql çalışmıyorsa aşağıdaki kod ile onu aktif edebiliriz.
- 
-```sh
-sudo systemctl start mysql
-``` 
-
-Ayrıca `MySQL Workbench` kullanarak da kullanıcı oluşturup izimnlerini verebiliriz. 
-
-<p align="center">
-  <img width="700" height="400" src="image/kullanıcı oluşturma.gif?raw=true">
-</p>
-
-
-oluşturduğumuz bu kullanıcıyı kullanarak bir bağlantı oluşturalım ve databse e bağlanalım
-
-<p align="center">
-  <img width="700" height="400" src="image/baglantı_olusturma.gif?raw=true">
-</p>
-
 
 # -----------------------------------------------------------------------------
 # 🚀 MYSQL WORKBENCH KURULUMU VE KULLANIMI
@@ -138,6 +122,23 @@ Yukarıda belirtildiği gibi oluşturduğumuz kullanıcı ve şifresini kullanar
 
 <p align="center">
   <img width="700" height="400" src="image/baglanti.gif?raw=true">
+</p>
+
+
+
+
+
+Ayrıca yukarıdaki metotla kullanıcı oluşturabildiğimiz gibi `MySQL Workbench` kullanarak da kullanıcı oluşturup izinlerini verebiliriz. 
+
+<p align="center">
+  <img width="700" height="400" src="image/kullanıcı oluşturma.gif?raw=true">
+</p>
+
+
+oluşturduğumuz bu kullanıcıyı kullanarak bir bağlantı oluşturalım ve database e bağlanalım
+
+<p align="center">
+  <img width="700" height="400" src="image/baglantı_olusturma.gif?raw=true">
 </p>
 
 
