@@ -121,7 +121,7 @@ Ayrıca [linkten](https://dev.to/gsudarshan/how-to-install-mysql-and-workbench-o
 Yukarıda belirtildiği gibi oluşturduğumuz kullanıcı ve şifresini kullanarak `MySQL Workbench` de database için bir bağlantı oluşturalım
 
 <p align="center">
-  <img width="700" height="400" src="image/baglanti.gif?raw=true">
+  <img width="1000" height="600" src="image/baglanti.gif?raw=true">
 </p>
 
 
@@ -131,14 +131,14 @@ Yukarıda belirtildiği gibi oluşturduğumuz kullanıcı ve şifresini kullanar
 Ayrıca yukarıdaki metotla kullanıcı oluşturabildiğimiz gibi `MySQL Workbench` kullanarak da kullanıcı oluşturup izinlerini verebiliriz. 
 
 <p align="center">
-  <img width="700" height="400" src="image/kullanıcı oluşturma.gif?raw=true">
+  <img width="1000" height="600" src="image/kullanıcı oluşturma.gif?raw=true">
 </p>
 
 
 oluşturduğumuz bu kullanıcıyı kullanarak bir bağlantı oluşturalım ve database e bağlanalım
 
 <p align="center">
-  <img width="700" height="400" src="image/baglantı_olusturma.gif?raw=true">
+  <img width="1000" height="600" src="image/baglantı_olusturma.gif?raw=true">
 </p>
 
 
@@ -152,13 +152,13 @@ create database veriler_guncel;
 ``` 
 
 <p align="center">
-  <img width="500" height="250" src="image/database_create.png?raw=true">
+  <img width="700" height="400" src="image/database_create.png?raw=true">
 </p>
 
 bu şekilde oluşturulan database i `MySQL Workbench` içerisinde de görebiliriz
 
 <p align="center">
-  <img width="500" height="250" src="image/database_creatae_workbench.png?raw=true">
+  <img width="700" height="400" src="image/database_creatae_workbench.png?raw=true">
 </p>
 
 
