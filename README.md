@@ -1,7 +1,6 @@
-<h1 align="center">
-👋 Herkese Selamlar 👋
-</h1>
-
+<h4 align="left">
+Yazar : Bilal GÜREVİN👋👋
+</h4>
 
 ## `Ubuntu`'da  temel seviyede database işlemlerini gerçekleştirmeye çalıştım. Bunun için `MySQL`, `MySQL Workbench`  kullandım. Ayrıca `Python` programlama dili ile de yine temel seviyede bazı database işlemlerini gerçekleştirdim. Umarım sizlere de katkısı olur.
 
