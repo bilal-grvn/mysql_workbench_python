@@ -49,7 +49,7 @@ sudo mysql;
 ``` 
 
 ```sh
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Optimak.123';
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Bilal.123';
 ``` 
 
 değişikliklerin aktif edilmesi için
