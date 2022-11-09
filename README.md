@@ -4,7 +4,11 @@ Yazar : Bilal GÜREVİN👋👋
 
 ## `Ubuntu`'da  temel seviyede database işlemlerini gerçekleştirmeye çalıştım. Bunun için `MySQL`, `MySQL Workbench`  kullandım. Ayrıca `Python` programlama dili ile de yine temel seviyede bazı database işlemlerini gerçekleştirdim. Umarım sizlere de katkısı olur.
 
-# -----------------------------------------------------------------------------
+
+***************************************************************
+***************************************************************
+
+
 # 🚀 MYSQL KURULUMU
 
 [linkten](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-18-04) kaynak bilgiye ulaşabilirsiniz.
@@ -105,7 +109,9 @@ systemctl status mysql.service
 ``` 
 
 
-# -----------------------------------------------------------------------------
+***************************************************************
+***************************************************************
+
 # 🚀 MYSQL WORKBENCH KURULUMU VE KULLANIMI
 
 `Ubuntu software` yardımı ile `mysql workbench` kurulumunu gerçekleştirebiliriz
@@ -141,7 +147,9 @@ oluşturduğumuz bu kullanıcıyı kullanarak bir bağlantı oluşturalım ve da
 </p>
 
 
-# -----------------------------------------------------------------------------
+***************************************************************
+***************************************************************
+
 # 🚀 TEMEL SEVİYEDE DATABASE KODLARI
 
 Terminalden `MySQL` ekranına giriş yapıldıktan sonra aşağıdaki kod ile yeni bir database oluşturulabilir
